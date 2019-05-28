@@ -1,0 +1,21 @@
+.circle-img {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    border-radius: 50%;    
+}
+.footer{
+    text-align: center;
+    background: yellowgreen;
+}
+.jumbotron{
+    text-align: center;
+}
+.navbar{
+    height: 50px;
+}
+.card-header{
+    text-align: center;
+}

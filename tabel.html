@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Star</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+  </head>
+
+<body class="bg-dark">  
+  <nav class="navbar navbar-dark bg-dark">
+    <input id='planetInput' onkeyup='search()' type='text' placeholder="search for your star">   
+  </nav>
+<section class="table">
+<table class="table table-striped table-dark">
+  <thead>
+    <tr>
+	  <th scope="col">Name</th>
+      <th scope="col">Rotation Period</th>
+      <th scope="col">Orbital Period</th>
+      <th scope="col">Diameter</th>
+      <th scope="col">Climate</th>
+      <th scope="col">Gravity</th>
+      <th scope="col">Terrain</th>
+      <th scope="col">Surface Water</th>
+      <th scope="col">Population</th>
+    </tr>
+  </thead>
+  <tbody id="planet">
+  </tbody>
+</table>
+</section>	
+
+<script type="text/javascript" src="js/planet.js"></script>
+
+</body>
+
+ <footer class="footer">
+        © Design By Munandar with ❤ for Indonesia
+</footer>
+<style>
+  body{
+    margin: auto;
+    padding: 50px;
+  }
+.footer{
+
+    text-align: center;
+    background: yellowgreen;}
+</style>
+</html>

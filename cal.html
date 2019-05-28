@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript Calculator</title>
+  <link rel="stylesheet" href="css/styli.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="jumbotron">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active disabled" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="profil.html">Profil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="cal.html">Kalkulator</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tabel.html">Tabel Planet</a>
+                  </li>	  
+                </ul>
+              </div> 
+ </nav>
+
+  <main class="calculator">
+
+    <div class="top">
+
+      <section class="screen">
+        <div class="input"></div>
+        <div class="result"></div>
+      </section>
+
+    </div>
+
+    <div class="bottom">
+
+      <section class="keys">
+
+        <div class="column">
+          <span data-key="7">7</span>
+          <span data-key="4">4</span>
+          <span data-key="1">1</span>
+          <span data-key=".">.</span>
+        </div>
+
+        <div class="column">
+          <span data-key="8">8</span>
+          <span data-key="5">5</span>
+          <span data-key="2">2</span>
+          <span data-key="0">0</span>
+        </div>
+
+        <div class="column">
+          <span data-key="9">9</span>
+          <span data-key="6">6</span>
+          <span data-key="3">3</span>
+          <span class="equals-to" data-key="=">=</span>
+        </div>
+      </section>
+
+      <section class="operators">
+        <span class="delete">del</span>
+        <span data-key="÷">÷</span>
+        <span data-key="x">x</span>
+        <span data-key="-">-</span>
+        <span data-key="+">+</span>
+      </section>
+
+    </div>
+
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
